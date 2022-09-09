@@ -663,7 +663,6 @@ export class DragResizeBlock extends Component {
     } = this.state;
 
     return connectors.map((connectorType) => {
-      console.log('---->',connectorType);
       return (
         <Connector
           key={connectorType}
